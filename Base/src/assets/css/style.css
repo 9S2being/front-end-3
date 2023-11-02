@@ -1,0 +1,91 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #cabecario{
+        margin-top: 40px;
+    }
+
+    #titulo{
+        color: #165416!important;
+        font-weight: 900;
+        font-size: 4rem;
+    }
+
+    #rodape{
+    background-color: rgb(24, 29, 24);
+    color: #959292;
+    }
+
+    #info{
+        font-size: small;
+    }
+
+    #dev {
+        margin-top: 10px;
+        font-size: small;
+        position: relative;
+    }
+
+    #fundo {
+      margin-top: 80px;
+      background-image: url('./img/FUNDO.jpg');
+      background-size: cover; /* Muda para cover para preencher o espaço disponível */
+      background-repeat: no-repeat;
+      height: 2000px;
+  }
+
+  #pagination{
+    display: flex;
+    margin-left: 550px;
+    gap: 70px;
+    
+  }
+
+    
+ /* Cards de personagem */ 
+
+.card-text {
+  display: flex;
+  font-size: small;
+}
+
+#bg-card-in {
+  background-color: rgb(45, 56, 45);
+  
+}
+
+#bg-card-out {
+  margin-top: 20px;
+  background-color: rgb(45, 56, 45);
+}
+
+#icone-bar {
+  position: absolute;
+  right: 340px; 
+  top: 37%; 
+  transform: translateY(-50%); 
+}
+
+#searchCharacter {
+  margin-left: 330px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+}
+
+.status-alive {
+  background-color: lightgreen;
+}
+
+.status-dead {
+  background-color: #ff7f7f;
+}
+
+.status-unknown {
+  background-color: lightgrey;
+}
